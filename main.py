@@ -110,22 +110,66 @@ def main():
 
     # End with a footer - Always displayed and fixed in the bottom of the page
     st.markdown("""
-        <style>
-        .footer {
-            position: fixed;
-            bottom: 0;
-            width: 46%;
-            text-align: center;
-            color: white;
-            background-color: #000000;
-            padding: 1px;
-        }
-        </style>
-        <div class="footer">
-            <p><br>Developed by Chouliaras Dimitrios<br> UTH Thessaly</p>
+    <style>
+    /* Ensure that the body takes up the full height */
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+    }
+
+    /* Allow content to expand and take up available space */
+    .content {
+        flex-grow: 1;
+        overflow-y: auto;
+    }
+
+    /* Style the footer */
+    .footer {
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: #000000;
+        padding: 10px 0;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        position: relative;
+        bottom: 0;
+    }
+
+    /* Footer links container */
+    .footer-links {
+        margin-top: 10px;
+    }
+
+    /* Style for individual social icons */
+    .footer-links a {
+        color: white;
+        font-size: 24px;
+        margin: 0 15px;
+    }
+
+    .footer-links a:hover {
+        color: #00aaff;
+    }
+    </style>
+
+    <div class="footer">
+        <p>Developed by Chouliaras Dimitrios<br> UTH Thessaly</p>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/dimitrios-chouliaras/" target="_blank">
+        <i class="fab fa-linkedin" style="font-size:30px; color:#0077B5; padding-right:10px;"></i> Dimitrios Chouliaras
+    </a>
+            <a href="https://github.com/Dimitris-Chouliaras" target="_blank">
+        <i class="fab fa-github" style="font-size:30px; color:#333; padding-right:10px;"></i> Dimitrios Chouliaras
+    </a>
         </div>
-        """, unsafe_allow_html=True)
+    </div>
 
-
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    """, unsafe_allow_html=True)
+    
 if __name__ == "__main__":
     main()
