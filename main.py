@@ -134,8 +134,17 @@ def main():
         padding: 10px 0;
         font-family: Arial, sans-serif;
         font-size: 14px;
-        position: relative;
-        bottom: 0;
+    }
+
+    .footer a {
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+    
+    .footer a:hover {
+        color: #00aaff;
     }
 
     /* Footer links container */
@@ -154,16 +163,16 @@ def main():
         color: #00aaff;
     }
     </style>
-
     <div class="footer">
-        <p>Developed by Chouliaras Dimitrios<br> UTH Thessaly</p>
-        <div class="footer-links">
+        <p>Developed by Chouliaras Dimitrios<br>UTH Thessaly</p>
+        <div>
             <a href="https://www.linkedin.com/in/dimitrios-chouliaras/" target="_blank">
-        <i class="fab fa-linkedin" style="font-size:30px; color:#0077B5; padding-right:10px;"></i> Dimitrios Chouliaras
-    </a>
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            |
             <a href="https://github.com/Dimitris-Chouliaras" target="_blank">
-        <i class="fab fa-github" style="font-size:30px; color:#333; padding-right:10px;"></i> Dimitrios Chouliaras
-    </a>
+                <i class="fab fa-github"></i> GitHub
+            </a>
         </div>
     </div>
 
