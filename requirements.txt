@@ -1,0 +1,7 @@
+streamlit
+textblob
+pandas
+clean-text
+nltk
+openpyxl
+xlsxwriter
