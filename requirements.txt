@@ -1,6 +1,7 @@
 streamlit
 textblob
 pandas
+cleantext
 clean-text
 nltk
 openpyxl
