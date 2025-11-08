@@ -27,7 +27,7 @@ It allows users to analyze the sentiment of text data using two popular Natural 
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/sentiment-analysis-app.git
+[git clone https://github.com/yourusername/sentiment-analysis-app.git](https://github.com/Dimitris-Chouliaras/Sentiment-Analysis)
 
 cd sentiment-analysis-app
 
@@ -37,6 +37,6 @@ cd sentiment-analysis-app
 
 Dimitrios Chouliaras — University of Thessaly (UTH)
 
-LinkedIn
+LinkedIn: https://www.linkedin.com/in/dimitrios-chouliaras/
 
-GitHub
+GitHub: https://github.com/Dimitris-Chouliaras
