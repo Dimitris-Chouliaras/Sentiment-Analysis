@@ -1,2 +1,4 @@
-# Sentiment-Analysis
-A Python program developed in PyCharm to demonstrate the basic Natural Language Processing techniques and their application using real-world text data. It evaluates the sentiment into 3 categories, positive/negative/neutral. It can either accept text on the spot from the user or the user can upload an excel/csv file to perform sentiment analysis.
+#🧠 Sentiment Analysis Web App
+
+This project is an interactive Sentiment Analysis web application built with Python and Streamlit.
+It allows users to analyze the sentiment of text data using two popular Natural Language Processing (NLP) models — TextBlob and NLTK (VADER).
