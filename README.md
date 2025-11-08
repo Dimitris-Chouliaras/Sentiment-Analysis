@@ -9,11 +9,11 @@ It allows users to analyze the sentiment of text data using two popular Natural 
 
 *CSV/Excel File Upload: Upload a .csv or .xlsx file containing sentences for batch sentiment analysis.
 
-Choose a column from your dataset for analysis.
+    Choose a column from your dataset for analysis.
 
-View the results directly in the app.
+    View the results directly in the app.
 
-Download the processed data as an Excel file.
+    Download the processed data as an Excel file.
 
 *Model Selection: Choose between:
 
